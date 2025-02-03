@@ -1,7 +1,3 @@
-q^-4 analysis is found in the first part of the  jupyter notebook file, bending-analysis-v1.1.ipynb. 
+The included .yml file is the conda environment utilized for the analysis of membrane trajectories. 
 
-BW-DCF analysis is split between the c-matrix.py file, and the second part of the jupyter notebook file. 
-
-rsf analysis is found in rsf.py.
-
-bending-analysis-v1.1.py contains the entire analysis code in a single python file that can be combined with HPCAnalysis-W-Packages.yml conda environment for interaction-free analysis of trajectories. 
+bending-analysis-v1.1.py contains all needed information for determining the bending modulus of q^-4 and RSF. BW-DCF needs to have c-matrix.py run first, the results of which are called in bending-analysis-v1.1.py and used to determine the BW-DCF bending modulus. 
